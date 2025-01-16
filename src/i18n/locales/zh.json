@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "首页",
+    "gallery": "图库",
+    "creators": "创作者",
+    "stories": "故事",
+    "about": "关于",
+    "help": "帮助",
+    "contact": "联系",
+    "events": "活动"
+  },
+  "events": {
+    "title": "活动与比赛",
+    "description": "参加我们的摄影活动、比赛和展览。展示你的才华，赢取丰厚奖品！",
+    "openEvents": "打开活动",
+    "newEvents": "新活动已上线！",
+    "backToEvents": "返回活动列表",
+    "backToEvent": "返回活动详情",
+    "about": "关于活动",
+    "tabs": {
+      "ongoing": "进行中",
+      "upcoming": "即将开始",
+      "announcements": "公告",
+      "past": "往期活动"
+    },
+    "status": {
+      "ongoing": "进行中",
+      "upcoming": "即将开始",
+      "ended": "已结束"
+    },
+    "types": {
+      "competition": "比赛",
+      "exhibition": "展览",
+      "workshop": "工作坊"
+    },
+    "participate": "立即参与",
+    "learnMore": "了解更多",
+    "winners": "获奖者",
+    "winnersGallery": "获奖作品展",
+    "winnersDescription": "浏览所有获奖作品和创作者",
+    "viewGallery": "查看画廊",
+    "noEvents": "当前分类暂无活动",
+    "checkBack": "请稍后再来查看",
+    "rules": "规则与指南",
+    "prizes": "奖项设置",
+    "deadline": "提交截止日期",
+    "registration": "报名",
+    "requirements": "要求",
+    "resources": "相关资源"
+  }
+}

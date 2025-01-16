@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "gallery": "ギャラリー",
+    "creators": "クリエイター",
+    "stories": "ストーリー",
+    "about": "概要",
+    "help": "ヘルプ",
+    "contact": "お問い合わせ",
+    "events": "イベント"
+  },
+  "events": {
+    "title": "イベント＆コンテスト",
+    "description": "写真イベント、コンテスト、展示会に参加しましょう。あなたの才能を披露し、素晴らしい賞品を獲得しましょう！",
+    "openEvents": "イベントを開く",
+    "newEvents": "新しいイベントが追加されました！",
+    "backToEvents": "イベント一覧に戻る",
+    "backToEvent": "イベント詳細に戻る",
+    "about": "イベントについて",
+    "tabs": {
+      "ongoing": "開催中",
+      "upcoming": "開催予定",
+      "announcements": "お知らせ",
+      "past": "過去のイベント"
+    },
+    "status": {
+      "ongoing": "開催中",
+      "upcoming": "開催予定",
+      "ended": "終了"
+    },
+    "types": {
+      "competition": "コンテスト",
+      "exhibition": "展示会",
+      "workshop": "ワークショップ"
+    },
+    "participate": "参加する",
+    "learnMore": "詳細を見る",
+    "winners": "受賞者",
+    "winnersGallery": "受賞作品ギャラリー",
+    "winnersDescription": "すべての受賞作品とクリエイターをご覧ください",
+    "viewGallery": "ギャラリーを見る",
+    "noEvents": "このカテゴリーにイベントはありません",
+    "checkBack": "また後でご確認ください",
+    "rules": "ルールとガイドライン",
+    "prizes": "賞品",
+    "deadline": "応募締切",
+    "registration": "登録",
+    "requirements": "要件",
+    "resources": "関連リソース"
+  }
+}

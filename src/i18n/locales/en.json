@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "creators": "Creators",
+    "stories": "Stories",
+    "about": "About",
+    "help": "Help",
+    "contact": "Contact",
+    "events": "Events"
+  },
+  "events": {
+    "title": "Events & Competitions",
+    "description": "Join our photography events, competitions, and exhibitions. Showcase your talent and win amazing prizes!",
+    "openEvents": "Open Events",
+    "newEvents": "New Events Available!",
+    "tabs": {
+      "ongoing": "Ongoing",
+      "upcoming": "Upcoming",
+      "announcements": "Announcements",
+      "past": "Past Events"
+    },
+    "status": {
+      "ongoing": "Ongoing",
+      "upcoming": "Coming Soon",
+      "ended": "Ended"
+    },
+    "types": {
+      "competition": "Competition",
+      "exhibition": "Exhibition",
+      "workshop": "Workshop"
+    },
+    "participate": "Participate Now",
+    "learnMore": "Learn More",
+    "winners": "Winners",
+    "noEvents": "No events found in this category",
+    "rules": "Rules & Guidelines",
+    "prizes": "Prizes",
+    "deadline": "Submission Deadline",
+    "registration": "Registration",
+    "requirements": "Requirements"
+  }
+}
