@@ -6,8 +6,105 @@
     "stories": "故事",
     "about": "关于",
     "help": "帮助",
-    "contact": "联系",
-    "events": "活动"
+    "contact": "联系我们"
+  },
+  "pageTitle": {
+    "home": "首页",
+    "gallery": "图库",
+    "creators": "创作者",
+    "stories": "故事",
+    "about": "关于我们",
+    "help": "帮助中心",
+    "contact": "联系我们"
+  },
+  "creators": {
+    "title": "遇见创作者",
+    "description": "探索来自世界各地的优秀摄影师和艺术家",
+    "searchPlaceholder": "搜索创作者或标签...",
+    "types": {
+      "all": "全部",
+      "photographer": "摄影师",
+      "illustrator": "插画师",
+      "artist": "艺术家"
+    },
+    "follow": "关注",
+    "unfollow": "取消关注",
+    "featuredWorks": "精选作品",
+    "recentWorks": "最新作品",
+    "collections": "作品集",
+    "works": "作品"
+  },
+  "stories": {
+    "title": "创作故事",
+    "description": "深入了解创作者背后的故事和灵感",
+    "readMore": "阅读更多",
+    "share": "分享",
+    "categories": {
+      "interview": "访谈",
+      "tutorial": "教程",
+      "story": "故事",
+      "news": "新闻"
+    }
+  },
+  "help": {
+    "title": "帮助中心",
+    "description": "找到您需要的所有帮助和支持",
+    "searchPlaceholder": "搜索常见问题...",
+    "categories": {
+      "all": "全部",
+      "account": "账户",
+      "upload": "上传",
+      "privacy": "隐私"
+    },
+    "faq": {
+      "account": {
+        "question1": "如何创建账户？",
+        "answer1": "点击右上角的注册按钮，填写必要信息即可创建账户。"
+      },
+      "upload": {
+        "question1": "如何上传作品？",
+        "answer1": "登录后，点击上传按钮，选择您要分享的作品。"
+      },
+      "privacy": {
+        "question1": "如何保护我的作品？",
+        "answer1": "您可以在上传时设置作品的隐私选项和版权信息。"
+      }
+    },
+    "needMoreHelp": "没有找到您需要的答案？",
+    "contactSupport": "联系客服"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "我们随时准备为您提供帮助",
+    "email": "电子邮件",
+    "phone": "电话",
+    "address": "地址",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "subject": "主题",
+      "message": "留言",
+      "send": "发送",
+      "sending": "发送中...",
+      "success": "消息已发送！"
+    }
+  },
+  "footer": {
+    "company": "关于我们",
+    "description": "分享和发现世界各地的优秀摄影作品",
+    "quickLinks": "快速链接",
+    "about": "关于我们",
+    "gallery": "图库",
+    "creators": "创作者",
+    "stories": "故事",
+    "legal": "法律信息",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "cookies": "Cookie政策",
+    "licensing": "版权许可",
+    "contact": "联系方式",
+    "rights": "保留所有权利",
+    "backToTop": "返回顶部"
   },
   "events": {
     "title": "活动与比赛",
@@ -47,5 +144,60 @@
     "registration": "报名",
     "requirements": "要求",
     "resources": "相关资源"
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "我们致力于为摄影师和艺术家创建一个充满活力的社区",
+    "mission": "我们的使命是连接世界各地的创作者，为他们提供展示和分享作品的平台，促进艺术交流与合作。通过我们的平台，每位创作者都能找到属于自己的观众，让艺术之光照亮更多人的生活。",
+    "vision": "我们期望成为全球最具影响力的创意社区，让每一位热爱摄影和艺术的人都能在这里找到灵感，实现梦想。我们相信，艺术无国界，创意无止境。",
+    "values": {
+      "title": "我们的价值观",
+      "creativity": "创造力",
+      "community": "社区",
+      "diversity": "多样性",
+      "excellence": "卓越"
+    }
+  },
+  "auth": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "username": "用户名",
+    "forgotPassword": "忘记密码？",
+    "rememberMe": "记住我",
+    "welcomeBack": "欢迎回来",
+    "loginDescription": "登录您的账户以继续",
+    "registerDescription": "创建新账户开始您的旅程",
+    "orContinueWith": "或继续使用",
+    "continueWithGithub": "使用 Github 登录",
+    "noAccount": "还没有账户？",
+    "alreadyHaveAccount": "已有账户？",
+    "agreeToTerms": "我同意",
+    "terms": "服务条款",
+    "and": "和",
+    "privacy": "隐私政策",
+    "signingIn": "登录中...",
+    "signingUp": "注册中...",
+    "backToHome": "返回首页",
+    "resetEmailSent": "重置邮件已发送",
+    "resetEmailInstructions": "请检查您的邮箱，按照邮件中的说明重置密码。",
+    "backToLogin": "返回登录",
+    "sendResetEmail": "发送重置邮件",
+    "sendingResetEmail": "发送中...",
+    "forgotPasswordDescription": "输入您的邮箱，我们将发送重置密码的链接。",
+    "errors": {
+      "loginFailed": "登录失败，请检查您的邮箱和密码。",
+      "registerFailed": "注册失败，请稍后重试。",
+      "passwordMismatch": "两次输入的密码不匹配",
+      "resetFailed": "重置密码邮件发送失败，请稍后重试。"
+    },
+    "passwordStrength": {
+      "weak": "密码强度：弱",
+      "moderate": "密码强度：中等",
+      "strong": "密码强度：强",
+      "veryStrong": "密码强度：非常强"
+    }
   }
 }

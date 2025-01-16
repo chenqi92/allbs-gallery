@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, Camera, HelpCircle, Info, Mail } from 'lucide-react';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { AuthButton } from './auth/AuthButton';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -10,9 +11,9 @@ export function Header() {
 
   const navItems = [
     { key: 'home', label: t('nav.home'), icon: Camera },
-    { key: 'gallery', label: t('nav.gallery') },
-    { key: 'creators', label: t('nav.creators') },
     { key: 'stories', label: t('nav.stories') },
+    { key: 'creators', label: t('nav.creators') },
+    { key: 'gallery', label: t('nav.gallery') },
     { key: 'about', label: t('nav.about'), icon: Info },
     { key: 'help', label: t('nav.help'), icon: HelpCircle },
     { key: 'contact', label: t('nav.contact'), icon: Mail }
@@ -67,6 +68,7 @@ export function Header() {
               </a>
             ))}
             <LanguageSwitcher />
+            <AuthButton />
           </nav>
 
           <button

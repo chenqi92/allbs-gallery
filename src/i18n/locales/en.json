@@ -6,18 +6,118 @@
     "stories": "Stories",
     "about": "About",
     "help": "Help",
+    "contact": "Contact"
+  },
+  "pageTitle": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "creators": "Creators",
+    "stories": "Stories",
+    "about": "About Us",
+    "help": "Help Center",
+    "contact": "Contact Us"
+  },
+  "creators": {
+    "title": "Meet Our Creators",
+    "description": "Discover talented photographers and artists from around the world",
+    "searchPlaceholder": "Search creators or tags...",
+    "types": {
+      "all": "All",
+      "photographer": "Photographer",
+      "illustrator": "Illustrator",
+      "artist": "Artist"
+    },
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "featuredWorks": "Featured Works",
+    "recentWorks": "Recent Works",
+    "collections": "Collections",
+    "works": "works"
+  },
+  "stories": {
+    "title": "Creator Stories",
+    "description": "Explore the stories and inspiration behind our creators",
+    "readMore": "Read More",
+    "share": "Share",
+    "categories": {
+      "interview": "Interview",
+      "tutorial": "Tutorial",
+      "story": "Story",
+      "news": "News"
+    }
+  },
+  "help": {
+    "title": "Help Center",
+    "description": "Find all the help and support you need",
+    "searchPlaceholder": "Search FAQs...",
+    "categories": {
+      "all": "All",
+      "account": "Account",
+      "upload": "Upload",
+      "privacy": "Privacy"
+    },
+    "faq": {
+      "account": {
+        "question1": "How do I create an account?",
+        "answer1": "Click the sign up button in the top right corner and fill in the required information."
+      },
+      "upload": {
+        "question1": "How do I upload my work?",
+        "answer1": "After logging in, click the upload button and select the work you want to share."
+      },
+      "privacy": {
+        "question1": "How can I protect my work?",
+        "answer1": "You can set privacy options and copyright information when uploading your work."
+      }
+    },
+    "needMoreHelp": "Couldn't find what you're looking for?",
+    "contactSupport": "Contact Support"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We're here to help",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent!"
+    }
+  },
+  "footer": {
+    "company": "About Us",
+    "description": "Share and discover amazing photography from around the world",
+    "quickLinks": "Quick Links",
+    "about": "About",
+    "gallery": "Gallery",
+    "creators": "Creators",
+    "stories": "Stories",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Policy",
+    "licensing": "Licensing",
     "contact": "Contact",
-    "events": "Events"
+    "rights": "All rights reserved",
+    "backToTop": "Back to top"
   },
   "events": {
     "title": "Events & Competitions",
     "description": "Join our photography events, competitions, and exhibitions. Showcase your talent and win amazing prizes!",
     "openEvents": "Open Events",
     "newEvents": "New Events Available!",
+    "backToEvents": "Back to Events",
+    "backToEvent": "Back to Event",
+    "about": "About Event",
     "tabs": {
       "ongoing": "Ongoing",
       "upcoming": "Upcoming",
-      "announcements": "Announcements",
+      "announcements": "Announcements", 
       "past": "Past Events"
     },
     "status": {
@@ -27,17 +127,77 @@
     },
     "types": {
       "competition": "Competition",
-      "exhibition": "Exhibition",
+      "exhibition": "Exhibition", 
       "workshop": "Workshop"
     },
     "participate": "Participate Now",
     "learnMore": "Learn More",
     "winners": "Winners",
+    "winnersGallery": "Winners Gallery",
+    "winnersDescription": "Browse all winning works and creators",
+    "viewGallery": "View Gallery",
     "noEvents": "No events found in this category",
+    "checkBack": "Please check back later",
     "rules": "Rules & Guidelines",
     "prizes": "Prizes",
     "deadline": "Submission Deadline",
     "registration": "Registration",
-    "requirements": "Requirements"
+    "requirements": "Requirements",
+    "resources": "Resources"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are dedicated to creating a vibrant community for photographers and artists",
+    "mission": "Our mission is to connect creators from around the world, providing them with a platform to showcase and share their work, fostering artistic exchange and collaboration. Through our platform, every creator can find their audience and let their art illuminate lives.",
+    "vision": "We aspire to become the most influential creative community globally, where everyone passionate about photography and art can find inspiration and realize their dreams. We believe that art has no boundaries and creativity knows no limits.",
+    "values": {
+      "title": "Our Values",
+      "creativity": "Creativity",
+      "community": "Community",
+      "diversity": "Diversity",
+      "excellence": "Excellence"
+    }
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "username": "Username",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember me",
+    "welcomeBack": "Welcome Back",
+    "loginDescription": "Sign in to your account to continue",
+    "registerDescription": "Create a new account to get started",
+    "orContinueWith": "Or continue with",
+    "continueWithGithub": "Continue with Github",
+    "noAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "agreeToTerms": "I agree to the",
+    "terms": "Terms of Service",
+    "and": "and",
+    "privacy": "Privacy Policy",
+    "signingIn": "Signing in...",
+    "signingUp": "Signing up...",
+    "backToHome": "Back to Home",
+    "resetEmailSent": "Reset Email Sent",
+    "resetEmailInstructions": "Please check your email for instructions to reset your password.",
+    "backToLogin": "Back to Login",
+    "sendResetEmail": "Send Reset Email",
+    "sendingResetEmail": "Sending...",
+    "forgotPasswordDescription": "Enter your email and we'll send you a link to reset your password.",
+    "errors": {
+      "loginFailed": "Login failed. Please check your email and password.",
+      "registerFailed": "Registration failed. Please try again later.",
+      "passwordMismatch": "Passwords do not match",
+      "resetFailed": "Failed to send reset email. Please try again later."
+    },
+    "passwordStrength": {
+      "weak": "Password is weak",
+      "moderate": "Password is moderate",
+      "strong": "Password is strong",
+      "veryStrong": "Password is very strong"
+    }
   }
 }

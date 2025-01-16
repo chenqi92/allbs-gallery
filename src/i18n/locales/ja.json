@@ -6,8 +6,105 @@
     "stories": "ストーリー",
     "about": "概要",
     "help": "ヘルプ",
+    "contact": "お問い合わせ"
+  },
+  "pageTitle": {
+    "home": "ホーム",
+    "gallery": "ギャラリー",
+    "creators": "クリエイター",
+    "stories": "ストーリー",
+    "about": "会社概要",
+    "help": "ヘルプセンター",
+    "contact": "お問い合わせ"
+  },
+  "creators": {
+    "title": "クリエイター紹介",
+    "description": "世界中の才能あるフォトグラファーやアーティストを発見しよう",
+    "searchPlaceholder": "クリエイターやタグを検索...",
+    "types": {
+      "all": "すべて",
+      "photographer": "フォトグラファー",
+      "illustrator": "イラストレーター",
+      "artist": "アーティスト"
+    },
+    "follow": "フォロー",
+    "unfollow": "フォロー解除",
+    "featuredWorks": "注目作品",
+    "recentWorks": "最新作品",
+    "collections": "コレクション",
+    "works": "作品"
+  },
+  "stories": {
+    "title": "クリエイターストーリー",
+    "description": "クリエイターたちの物語とインスピレーションを探求",
+    "readMore": "続きを読む",
+    "share": "シェア",
+    "categories": {
+      "interview": "インタビュー",
+      "tutorial": "チュートリアル",
+      "story": "ストーリー",
+      "news": "ニュース"
+    }
+  },
+  "help": {
+    "title": "ヘルプセンター",
+    "description": "必要なサポート情報をご案内します",
+    "searchPlaceholder": "よくある質問を検索...",
+    "categories": {
+      "all": "すべて",
+      "account": "アカウント",
+      "upload": "アップロード",
+      "privacy": "プライバシー"
+    },
+    "faq": {
+      "account": {
+        "question1": "アカウントの作成方法は？",
+        "answer1": "右上の新規登録ボタンをクリックし、必要な情報を入力してください。"
+      },
+      "upload": {
+        "question1": "作品のアップロード方法は？",
+        "answer1": "ログイン後、アップロードボタンをクリックして共有したい作品を選択してください。"
+      },
+      "privacy": {
+        "question1": "作品の保護方法は？",
+        "answer1": "アップロード時にプライバシー設定と著作権情報を設定できます。"
+      }
+    },
+    "needMoreHelp": "お探しの情報が見つかりませんでしたか？",
+    "contactSupport": "サポートに問い合わせる"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "お気軽にご連絡ください",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "address": "住所",
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "subject": "件名",
+      "message": "メッセージ",
+      "send": "送信",
+      "sending": "送信中...",
+      "success": "送信完了！"
+    }
+  },
+  "footer": {
+    "company": "会社概要",
+    "description": "世界中の素晴らしい写真を共有し、発見しよう",
+    "quickLinks": "クイックリンク",
+    "about": "概要",
+    "gallery": "ギャラリー",
+    "creators": "クリエイター",
+    "stories": "ストーリー",
+    "legal": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "Cookie方針",
+    "licensing": "ライセンス",
     "contact": "お問い合わせ",
-    "events": "イベント"
+    "rights": "All rights reserved",
+    "backToTop": "トップへ戻る"
   },
   "events": {
     "title": "イベント＆コンテスト",
@@ -47,5 +144,60 @@
     "registration": "登録",
     "requirements": "要件",
     "resources": "関連リソース"
+  },
+  "about": {
+    "title": "会社概要",
+    "description": "写真家やアーティストのための活気あるコミュニティを作ることに専念しています",
+    "mission": "私たちの使命は、世界中のクリエイターをつなぎ、作品を展示・共有するプラットフォームを提供し、芸術的な交流とコラボレーションを促進することです。私たちのプラットフォームを通じて、すべてのクリエイターが自分のオーディエンスを見つけ、アートで人々の生活を照らすことができます。",
+    "vision": "写真やアートに情熱を持つすべての人がインスピレーションを見つけ、夢を実現できる、世界で最も影響力のあるクリエイティブコミュニティになることを目指しています。私たちは、アートに境界はなく、創造性に限界はないと信じています。",
+    "values": {
+      "title": "私たちの価値観",
+      "creativity": "創造性",
+      "community": "コミュニティ",
+      "diversity": "多様性",
+      "excellence": "卓越性"
+    }
+  },
+  "auth": {
+    "signIn": "ログイン",
+    "signUp": "新規登録",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirmPassword": "パスワード（確認）",
+    "username": "ユーザー名",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "rememberMe": "ログイン情報を保存",
+    "welcomeBack": "おかえりなさい",
+    "loginDescription": "アカウントにログインして続行",
+    "registerDescription": "新しいアカウントを作成して始めましょう",
+    "orContinueWith": "または次で続行",
+    "continueWithGithub": "Githubで続行",
+    "noAccount": "アカウントをお持ちでない方",
+    "alreadyHaveAccount": "すでにアカウントをお持ちの方",
+    "agreeToTerms": "私は",
+    "terms": "利用規約",
+    "and": "と",
+    "privacy": "プライバシーポリシー",
+    "signingIn": "ログイン中...",
+    "signingUp": "登録中...",
+    "backToHome": "ホームに戻る",
+    "resetEmailSent": "リセットメールを送信しました",
+    "resetEmailInstructions": "メールをご確認いただき、パスワードリセットの手順に従ってください。",
+    "backToLogin": "ログインに戻る",
+    "sendResetEmail": "リセットメールを送信",
+    "sendingResetEmail": "送信中...",
+    "forgotPasswordDescription": "メールアドレスを入力してください。パスワードリセットのリンクを送信します。",
+    "errors": {
+      "loginFailed": "ログインに失敗しました。メールアドレスとパスワードをご確認ください。",
+      "registerFailed": "登録に失敗しました。後でもう一度お試しください。",
+      "passwordMismatch": "パスワードが一致しません",
+      "resetFailed": "リセットメールの送信に失敗しました。後でもう一度お試しください。"
+    },
+    "passwordStrength": {
+      "weak": "パスワード強度：弱",
+      "moderate": "パスワード強度：中",
+      "strong": "パスワード強度：強",
+      "veryStrong": "パスワード強度：非常に強い"
+    }
   }
 }
