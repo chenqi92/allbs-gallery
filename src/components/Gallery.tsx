@@ -146,17 +146,15 @@ export function Gallery() {
   // Download image
   const handleDownload = async (image: ImageData, e: React.MouseEvent) => {
     e.stopPropagation();
+    
     try {
-      const response = await fetch(image.url);
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
+      // 创建一个临时的a标签来触发下载
       const link = document.createElement('a');
-      link.href = url;
-      link.download = `${image.title}-${Date.now()}.jpg`;
+      link.href = image.url;
+      link.download = `${image.title || 'image'}.jpg`; // 设置下载文件名
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      window.URL.revokeObjectURL(url);
     } catch (error) {
       console.error('Download failed:', error);
     }

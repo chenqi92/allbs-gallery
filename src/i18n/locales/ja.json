@@ -174,6 +174,7 @@
     "continueWithGithub": "Githubで続行",
     "noAccount": "アカウントをお持ちでない方",
     "alreadyHaveAccount": "すでにアカウントをお持ちの方",
+    "createAccount": "アカウント作成",
     "agreeToTerms": "私は",
     "terms": "利用規約",
     "and": "と",
@@ -194,10 +195,33 @@
       "resetFailed": "リセットメールの送信に失敗しました。後でもう一度お試しください。"
     },
     "passwordStrength": {
-      "weak": "パスワード強度：弱",
-      "moderate": "パスワード強度：中",
-      "strong": "パスワード強度：強",
-      "veryStrong": "パスワード強度：非常に強い"
+      "title": "パスワード強度",
+      "weak": "弱い",
+      "moderate": "普通",
+      "strong": "強い",
+      "veryStrong": "非常に強い",
+      "requirements": {
+        "length": "8文字以上",
+        "uppercase": "大文字1文字以上",
+        "lowercase": "小文字1文字以上",
+        "number": "数字1文字以上",
+        "special": "特殊文字1文字以上"
+      }
+    },
+    "form": {
+      "usernameRequirements": "ユーザー名は3-20文字で入力してください",
+      "emailRequirements": "有効なメールアドレスを入力してください",
+      "passwordRequirements": "強力なパスワードを設定してください",
+      "confirmPasswordRequirements": "パスワードを再入力してください"
+    },
+    "validation": {
+      "usernameRequired": "ユーザー名を入力してください",
+      "emailRequired": "メールアドレスを入力してください",
+      "emailInvalid": "有効なメールアドレスを入力してください",
+      "passwordRequired": "パスワードを入力してください",
+      "passwordTooWeak": "パスワードが弱すぎます",
+      "confirmPasswordRequired": "パスワードを確認してください",
+      "termsRequired": "利用規約とプライバシーポリシーに同意してください"
     }
   }
 }

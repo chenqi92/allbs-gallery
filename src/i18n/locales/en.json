@@ -117,7 +117,7 @@
     "tabs": {
       "ongoing": "Ongoing",
       "upcoming": "Upcoming",
-      "announcements": "Announcements", 
+      "announcements": "Announcements",
       "past": "Past Events"
     },
     "status": {
@@ -127,7 +127,7 @@
     },
     "types": {
       "competition": "Competition",
-      "exhibition": "Exhibition", 
+      "exhibition": "Exhibition",
       "workshop": "Workshop"
     },
     "participate": "Participate Now",
@@ -170,6 +170,7 @@
     "welcomeBack": "Welcome Back",
     "loginDescription": "Sign in to your account to continue",
     "registerDescription": "Create a new account to get started",
+    "createAccount": "Create Account",
     "orContinueWith": "Or continue with",
     "continueWithGithub": "Continue with Github",
     "noAccount": "Don't have an account?",
@@ -194,10 +195,33 @@
       "resetFailed": "Failed to send reset email. Please try again later."
     },
     "passwordStrength": {
-      "weak": "Password is weak",
-      "moderate": "Password is moderate",
-      "strong": "Password is strong",
-      "veryStrong": "Password is very strong"
+      "title": "Password Strength",
+      "weak": "Weak",
+      "moderate": "Moderate",
+      "strong": "Strong",
+      "veryStrong": "Very Strong",
+      "requirements": {
+        "length": "At least 8 characters",
+        "uppercase": "At least 1 uppercase letter",
+        "lowercase": "At least 1 lowercase letter",
+        "number": "At least 1 number",
+        "special": "At least 1 special character"
+      }
+    },
+    "form": {
+      "usernameRequirements": "Username must be between 3-20 characters",
+      "emailRequirements": "Please enter a valid email address",
+      "passwordRequirements": "Please set a strong password",
+      "confirmPasswordRequirements": "Please confirm your password"
+    },
+    "validation": {
+      "usernameRequired": "Username is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordTooWeak": "Password is too weak",
+      "confirmPasswordRequired": "Please confirm your password",
+      "termsRequired": "Please agree to the terms and privacy policy"
     }
   }
 }
