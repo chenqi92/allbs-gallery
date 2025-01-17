@@ -1,0 +1,21 @@
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-visibility-hidden {
+  backface-visibility: hidden;
+}
+
+/* 添加硬件加速 */
+.carousel-container {
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+/* 优化图片渲染 */
+.carousel-image {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+} 
